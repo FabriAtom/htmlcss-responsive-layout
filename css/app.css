@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, 
+li{
+    text-decoration: none;
+    display: inline;
+}
+
+.barra{
+    text-align: end;
+    background-color: blue;
+    height: 73px;
+    padding-left: 359px;
+    padding-right: 359px;
+}
+.bar{
+    color: white;
+}
+
+.logo{
+    text-align: start;
+    align-items: center;
+}
+.button-1{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.container-large{
+    max-width: 1205px;
+    margin: 0 auto;
+    padding: 1.25rem;
+    background-color: aqua;
+    margin-top: 40px;
+}
+
+
+.box {
+    display: flex;
+    padding: 5px 5px;
+    gap: 20px;
+}
+.box-2{
+    padding: 5px 5px;
+    display: flex;
+    gap: 25px;
+}
+
+
+.side-1{
+    width: 740px;
+    height: 340px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    display: flex;
+}
+.col{
+    width: 50%;
+}
+
+
+.side{
+    width: 356px;
+    height: 340px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+/* INSIDE-BOX */
+.foto-phone{
+    width: 250px;
+}
+
+.titolo{
+    color: blue;
+}
+
+.uno > p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.uno{
+    padding-left: 15px;
+}
+
+.apple{
+    background-color: blue;
+    border-radius: 10px;
+    padding: 10px;
+}
